@@ -1,5 +1,5 @@
 /* Header.css */
-  
+
 .header {
   display: flex;
   align-items: center;
@@ -12,7 +12,7 @@
   height: 40px;
 }
 
-.header__date-location{
+.header__date-location {
   margin: 0;
   height: 24px;
   font-weight: 700;
@@ -20,7 +20,7 @@
   line-height: 24px;
 }
 
-.header__add-clothes{
+.header__add-clothes {
   padding: 0;
   margin: 0 20px 0 auto;
   border: none;
@@ -29,13 +29,13 @@
   line-height: 24px;
 }
 
-.header__user{
+.header__user {
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
-.header__username{
+.header__username {
   margin: 0;
   font-weight: 700;
   font-size: 20px;

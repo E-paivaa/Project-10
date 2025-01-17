@@ -5,7 +5,7 @@
   margin: 0;
   overflow: hidden;
 }
-  
+
 .modal__image {
   max-width: 498px;
   height: auto;
@@ -16,12 +16,12 @@
   margin: 0;
   border-radius: 20px 20px 0px 0px;
 }
-  
+
 .modal__footer {
   padding: 20px 0 32px 32px;
   margin: 0;
 }
-  
+
 .modal__description {
   font-weight: 700;
   font-size: 20px;
@@ -29,7 +29,7 @@
   margin: 0;
   font-family: "CabinetGrotesk", Helvetica, sans-serif;
 }
-  
+
 .modal__close {
   padding: 0;
   line-height: 14px;

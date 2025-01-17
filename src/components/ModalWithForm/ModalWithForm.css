@@ -1,18 +1,18 @@
 .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #0000004d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0000004d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
 }
 
-.modal__opened {
-    visibility: visible;
+.modal_opened {
+  visibility: visible;
 }
 
 .modal__title {
@@ -44,7 +44,7 @@
 }
 
 .modal__form {
-  display:flex;
+  display: flex;
   flex-direction: column;
   width: 100%;
 }
@@ -73,7 +73,7 @@
 .modal__radio-buttons {
   border: none;
   padding: 0;
-  display:flex;
+  display: flex;
   flex-direction: column;
   margin: 0 0 32px 0;
 }
@@ -90,7 +90,7 @@
   border-radius: 5px;
   padding: 0;
 }
-  
+
 .modal__submit:hover {
   background-color: rgba(0, 0, 0, 0.6);
 }
@@ -118,7 +118,3 @@ input[type="radio"]:checked {
   justify-content: space-between;
   align-items: flex-start;
 }
-  
-
-
-
