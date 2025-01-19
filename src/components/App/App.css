@@ -5,9 +5,10 @@
 
 .page__content {
   max-width: 1440px;
-  max-height: 822px;
   margin: 0;
   padding: 0 40px;
-  min-height: 100vh;
+  max-height: 100%;
+  height: 865px;
+  overflow: hidden;
   font-family: "CabinetGrotesk", Helvetica, sans-serif;
 }

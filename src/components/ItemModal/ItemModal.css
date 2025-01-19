@@ -1,9 +1,13 @@
 .modal__content_type_image {
   max-width: 498px;
   max-height: 610px;
-  padding: unset;
   margin: 0;
   overflow: hidden;
+  background-color: #fff;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 20px;
 }
 
 .modal__image {
@@ -17,9 +21,27 @@
   border-radius: 20px 20px 0px 0px;
 }
 
+.modal__delete_item {
+  color:rgba(255, 77, 0, 1);
+  background: none;
+  height: 24px;
+  right: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: Cabinet Grotesk;
+  border: none;
+  position: absolute;
+  padding: 0 32px 0 0;
+  cursor: pointer;
+}
+
 .modal__footer {
+  position: relative;
   padding: 20px 0 32px 32px;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .modal__description {
