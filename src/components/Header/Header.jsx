@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import headerLogo from "../../assets/logo.svg";
 import headerAvatar from "../../assets/avatar.png";
-import ToggleSWitch from "../ToggleSwitch/ToggleSwitch";
+import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import "./Header.css";
 
 function Header({ handleAddClick, weatherData }) {
@@ -18,7 +18,7 @@ function Header({ handleAddClick, weatherData }) {
       <p className="header__date-location">
         {currentDate}, {weatherData.city}{" "}
       </p>
-      <ToggleSWitch/>
+      <ToggleSwitch/>
       <button
         className="header__add-clothes"
         type="button"
